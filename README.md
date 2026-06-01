@@ -71,3 +71,10 @@ export default defineConfig([
   },
 ])
 ```
+
+## Déploiement (GitHub Pages)
+
+Un workflow GitHub Actions (`.github/workflows/deploy.yml`) construit le site (Vite) et déploie `dist/` sur GitHub Pages.
+
+Pré-requis côté repo GitHub:
+- Settings → Pages → Source: **GitHub Actions**
